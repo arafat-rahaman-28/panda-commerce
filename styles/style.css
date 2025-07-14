@@ -110,6 +110,7 @@ nav ul li a{
 /* Category Section Styling */
 .categories{
     margin-top: 64px;
+    margin-bottom: 64px;
 }
 .category{
     display: flex;
