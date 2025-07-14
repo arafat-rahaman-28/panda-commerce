@@ -1,0 +1,156 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+/* Common Styles */
+.common-button{
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.common-button i{
+    margin-left: 4px;
+}
+.container {
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 24px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.search-parent{
+    position: relative;
+}
+.search-parent input{
+    background-color: rgb(241, 241, 241);
+    border-radius: 66px;
+    width: 600px;
+    padding: 15px 30px;
+    border: none;
+}
+.search-parent i{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    color: rgb(186, 186, 186);
+}
+
+/* Banner */
+.banner{
+    background-color: rgb(254, 234, 233);
+    padding-left: 46px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-right: 60px;
+    border-radius: 16px;
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 147px;
+}
+.banner-image img{
+    width: 402px;
+    height: 378px;
+}
+.banner-text-content h2{
+    color: rgb(31, 31, 31);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.banner-text-content p{
+    width: 490px;
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.banner-text-content .banner-price{
+    display: block;
+    font-weight: 600;
+    font-size: 52px;
+    color: rgb(255, 19, 111);
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+
+/* Category Section Styling */
+.categories{
+    margin-top: 64px;
+}
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 76px;
+    padding: 33px 46px;
+    border-radius: 12px;
+    cursor: pointer;
+    flex: 1;
+}
+.watch-category{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.bag-category{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.shoes-category{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+.category-name{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.category-image{
+    /* width: 68.21px; */
+    height: 90px;
+}
+.categories-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+.category-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex: 1; */
+    gap: 26px;
+}
